@@ -208,6 +208,7 @@ DEPRECATED_ATTRIBUTE
  * @see arrayOfModelsFromDictionaries:
  */
 + (NSMutableArray *)arrayOfDictionariesFromModels:(NSArray *)array;
++ (NSMutableArray*)arrayOfDictionariesFromModels:(NSArray*)array propertyNamesToExport:(NSArray*)propertyNamesToExport;
 + (NSMutableDictionary *)dictionaryOfDictionariesFromModels:(NSDictionary *)dictionary;
 
 /** @name Validation */
